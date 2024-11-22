@@ -3,10 +3,66 @@ toc: false
 ---
 
 <div class="hero">
-  <h1>Solar Muenster</h1>
-  <h2>Welcome to your new app! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
-  <a href="https://observablehq.com/framework/getting-started">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
+  <h1>StadtDatenLab Münster</h1>
+  <h2>Datenvisualisierung mittels Observable Notebooks</h2>
+  <a href="https://observablehq.com/framework/getting-started">"Get started" Doku<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
 </div>
+
+
+<div class="grid grid-cols-1">
+  <div class="big card">
+Hier soll ein Internetangebot entstehen, das Daten aus der Stadt Münster visualisiert. Es soll möglich sein, Visualisierungen in Form von Diagramme, Karten und Graphen abzurufen. Besucher*innen sollen städtische Daten erkunden, anschauen und prüfen können. Ein niederschwellig zugänglicher Faktencheck soll ermöglicht werden.
+  </div>
+</div>
+
+
+---
+
+## Informationen zu Observable Notebooks
+
+Links zu Observable Dokumentation:
+
+* Observable Framework Doku https://observablehq.com/framework/
+* Observable Plot Dokumentation https://observablehq.com/plot/transforms/group
+* D3 Funktionen bei Observable https://observablehq.com/@d3/d3-ascending
+* D3 Funktionen bei D3JS https://d3js.org/d3-array/summarize
+* Code Beispiele: https://github.com/observablehq/framework/blob/main/examples/
+
+Vorteile von Observable:
+
+* Lässt sich in statische HTML Seiten kompilieren und als statische Seiten deployen - keine speziellen Server zum Hosten der Notebooks sind notwendig - Hosting auf Github Pages möglich
+* Entwicklung dynamisch wie bei Juypter Notebooks, in gängigen (Web-)Programmiersprachen: Javascript, Markdown, Html
+* Eingebaute Unterstützung von D3.js mit Datenmanipulations- und Visualisierungsfunktionen. Große Beispielbibliothek. Möglichkeit zur Nutzung aller Visualisierungsbibliotheken aus dem Javascript-Universum. Datenimporter in allen Programmiersprachen möglich.
+* Open Source, große Community
+
+Nachteile: ?
+
+---
+
+## Ideen zur Umsetzung der Visualisierungsplattform
+
+Alle DatenDateien sollten Frictionless DataPackage-Beschreibungen erhalten:
+* https://datapackage.org/standard/data-package/
+
+Ideen für Namen:
+
+* StadtDatenHub
+* DatenChecker
+* FaktenFinder
+* DatenNavigator
+* DatenAtlas
+* StadtDatenLab
+* DatenKompass
+* DatenExplorer
+* DatenRadar
+* DatenLabor
+* OpenVis
+* OpenDataWelt
+* InfoAtlas
+* DatenBuddy
+
+
+## Beispieldiagramme
 
 <div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
   <div class="card">${
@@ -106,6 +162,14 @@ Here are some ideas of things you could try…
   .hero h1 {
     font-size: 90px;
   }
+}
+
+blockquote, ol, ul {
+    max-width: 1200px;
+}
+.card.big {
+    font-size:15pt;
+    text-align:center;
 }
 
 </style>

@@ -1,0 +1,1 @@
+cat `pwd -P`/../../alle-anlagen-muenster.csv
