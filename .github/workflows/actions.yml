@@ -43,7 +43,6 @@ jobs:
 #          any::readr
 #          any::dplyr
 
-  steps:
     - name: build project with npm
     - uses: actions/setup-node@v4
       with:
