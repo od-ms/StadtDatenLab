@@ -1,1 +1,1 @@
-cat `pwd -P`/../../alle-anlagen-muenster.csv
+curl -f https://raw.githubusercontent.com/od-ms/solar-und-windkraft-muenster/refs/heads/main/alle-anlagen-muenster.csv
