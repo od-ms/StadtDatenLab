@@ -4,7 +4,7 @@ on:
     # run on repository  push
   push: {branches: [main]}
     # run automatically in schedule
-  schedule: [{cron: "12 12 * * *"}]
+  # schedule: [{cron: "12 12 * * *"}]
   workflow_dispatch: {}
 
 permissions:
