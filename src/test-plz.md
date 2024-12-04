@@ -1,6 +1,6 @@
 ---
 theme: dashboard
-title: Postleitzahlen Karte
+title: Test 2D-Kartendarstellung
 toc: false
 ---
 

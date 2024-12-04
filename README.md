@@ -1,4 +1,42 @@
-# Solar Muenster
+# StadtDatenLab Muenster
+
+Vision:
+* Hier soll ein Internetangebot entstehen, das Daten aus der Stadtverwaltung Münster visualisiert. Es soll möglich sein, Visualisierungen in Form von Diagramme, Karten und Graphen abzurufen. Besucher*innen sollen städtische Daten erkunden, anschauen und prüfen können. Ein niederschwellig zugänglicher Faktencheck soll ermöglicht werden.
+
+---
+
+## Ideen zur Umsetzung der Datenvisualisierungen
+
+DatenDateien sollten Frictionless DataPackage-Beschreibungen erhalten:
+* https://datapackage.org/standard/data-package/ -
+
+Datensätze automatisch mit Github Actions einchecken:
+* Beispiele hier: https://github.com/datasets
+
+Ideen für Projektnamen:
+* StadtDatenHub, DatenChecker, FaktenFinder, DatenNavigator, StadtDatenLab, DatenKompass, DatenExplorer, DatenRadar, DatenLabor, OpenVis, OpenDataWelt, InfoAtlas, DatenBuddy
+
+---
+
+## Informationen zu Observable Notebooks
+
+Links zu Observable Dokumentation:
+
+* Observable Framework Doku https://observablehq.com/framework/
+* Observable Plot Dokumentation https://observablehq.com/plot/transforms/group
+* D3 Funktionen bei Observable https://observablehq.com/@d3/d3-ascending
+* D3 Funktionen bei D3JS https://d3js.org/d3-array/summarize
+* Code Beispiele: https://github.com/observablehq/framework/blob/main/examples/
+
+Vorteile von Observable:
+
+* Lässt sich in statische HTML Seiten kompilieren und als statische Seiten deployen - keine speziellen Server zum Hosten der Notebooks sind notwendig - Hosting auf Github Pages möglich
+* Entwicklung dynamisch wie bei Juypter Notebooks, in gängigen (Web-)Programmiersprachen: Javascript, Markdown, Html
+* Eingebaute Unterstützung von D3.js mit Datenmanipulations- und Visualisierungsfunktionen. Große Beispielbibliothek. Möglichkeit zur Nutzung aller Visualisierungsbibliotheken aus dem Javascript-Universum. Datenimporter in allen Programmiersprachen möglich.
+* Open Source, große Community
+
+---
+
 
 This is an [Observable Framework](https://observablehq.com/framework/) app. To install the required dependencies, run:
 

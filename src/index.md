@@ -3,98 +3,14 @@ toc: false
 ---
 
 <div class="hero">
-  <h1>StadtDatenLab Münster</h1>
-  <h2>Datenvisualisierung mittels Observable Notebooks</h2>
-  <a href="https://observablehq.com/framework/getting-started">"Get started" Doku<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
-</div>
-
-
-<div class="grid grid-cols-1">
-  <div class="big card">
-Hier soll ein Internetangebot entstehen, das Daten aus der Stadt Münster visualisiert. Es soll möglich sein, Visualisierungen in Form von Diagramme, Karten und Graphen abzurufen. Besucher*innen sollen städtische Daten erkunden, anschauen und prüfen können. Ein niederschwellig zugänglicher Faktencheck soll ermöglicht werden.
-  </div>
+  <h1>StadtDatenLab</h1>
+  <h2>Open Data Datenvisualisierung</h2>
 </div>
 
 
 ---
 
-## Informationen zu Observable Notebooks
-
-Links zu Observable Dokumentation:
-
-* Observable Framework Doku https://observablehq.com/framework/
-* Observable Plot Dokumentation https://observablehq.com/plot/transforms/group
-* D3 Funktionen bei Observable https://observablehq.com/@d3/d3-ascending
-* D3 Funktionen bei D3JS https://d3js.org/d3-array/summarize
-* Code Beispiele: https://github.com/observablehq/framework/blob/main/examples/
-
-Vorteile von Observable:
-
-* Lässt sich in statische HTML Seiten kompilieren und als statische Seiten deployen - keine speziellen Server zum Hosten der Notebooks sind notwendig - Hosting auf Github Pages möglich
-* Entwicklung dynamisch wie bei Juypter Notebooks, in gängigen (Web-)Programmiersprachen: Javascript, Markdown, Html
-* Eingebaute Unterstützung von D3.js mit Datenmanipulations- und Visualisierungsfunktionen. Große Beispielbibliothek. Möglichkeit zur Nutzung aller Visualisierungsbibliotheken aus dem Javascript-Universum. Datenimporter in allen Programmiersprachen möglich.
-* Open Source, große Community
-
-Nachteile: ?
-
----
-
-## Ideen zur Umsetzung der Visualisierungsplattform
-
-Alle DatenDateien sollten Frictionless DataPackage-Beschreibungen erhalten:
-* https://datapackage.org/standard/data-package/
-
-Ideen für Namen:
-
-* StadtDatenHub
-* DatenChecker
-* FaktenFinder
-* DatenNavigator
-* DatenAtlas
-* StadtDatenLab
-* DatenKompass
-* DatenExplorer
-* DatenRadar
-* DatenLabor
-* OpenVis
-* OpenDataWelt
-* InfoAtlas
-* DatenBuddy
-
-
-## Beispieldiagramme
-
-<div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
-  <div class="card">${
-    resize((width) => Plot.plot({
-      title: "Your awesomeness over time 🚀",
-      subtitle: "Up and to the right!",
-      width,
-      y: {grid: true, label: "Awesomeness"},
-      marks: [
-        Plot.ruleY([0]),
-        Plot.lineY(aapl, {x: "Date", y: "Close", tip: true})
-      ]
-    }))
-  }</div>
-  <div class="card">${
-    resize((width) => Plot.plot({
-      title: "How big are penguins, anyway? 🐧",
-      width,
-      grid: true,
-      x: {label: "Body mass (g)"},
-      y: {label: "Flipper length (mm)"},
-      color: {legend: true},
-      marks: [
-        Plot.linearRegressionY(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species"}),
-        Plot.dot(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species", tip: true})
-      ]
-    }))
-  }</div>
-</div>
-
----
-
+<!--
 ## Next steps
 
 Here are some ideas of things you could try…
@@ -122,6 +38,7 @@ Here are some ideas of things you could try…
     Visit <a href="https://github.com/observablehq/framework">Framework on GitHub</a> and give us a star. Or file an issue if you’ve found a bug!
   </div>
 </div>
+-->
 
 <style>
 
